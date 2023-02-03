@@ -1,0 +1,46 @@
+{
+  "name": "goip-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "This is a simple package that can send sms through a goip gateway",
+  "license": "MIT",
+  "scripts": {
+    "build": "./build.sh",
+    "start": "node dist/index.js",
+    "dev": "babel --out-dir dist --copy-files --watch index.js"
+  },
+  "keywords": [
+    "goip",
+    "goip-sms",
+    "goip-send-sms",
+    "sms",
+    "send-sms"
+  ],
+  "author": {
+    "name": "Jason Panugaling",
+    "email": "jmpanugaling@gmail.com",
+    "url": "https://github.com/dashawk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dashawk/goip-node.git"
+  },
+  "bugs": {
+    "email": "jmpanugaling@gmail.com",
+    "url": "https://github.com/dashawk/goip-node/issues"
+  },
+  "homepage": "https://github.com/dashawk/goip-node#readme",
+  "engines": {
+    "node": "^18"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "rimraf": "^4.1.2"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.1.1"
+  }
+}
