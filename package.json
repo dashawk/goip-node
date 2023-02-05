@@ -1,7 +1,7 @@
 {
   "name": "goip-node",
   "version": "1.0.4",
-  "main": "index.js",
+  "main": "dist/index.js",
   "description": "This is a simple package that can send sms through a goip gateway",
   "license": "MIT",
   "scripts": {

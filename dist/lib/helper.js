@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.randomize=void 0;const randomize=(e,o)=>Math.floor(Math.random()*(o-e+1)+e);exports.randomize=randomize;
